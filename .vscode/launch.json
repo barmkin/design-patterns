@@ -6,10 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "IteratorPattern",
+            "name": "MediatorPattern",
             "request": "launch",
-            "mainClass": "it.gb.IteratorPattern",
-            "projectName": "iteratorPattern"
+            "mainClass": "it.gb.MediatorPattern",
+            "projectName": "mediatorPattern"
         },
         {
             "type": "java",
@@ -38,6 +38,13 @@
             "request": "launch",
             "mainClass": "it.gb.IteratorPattern",
             "projectName": "Iterator Pattern"
+        },
+        {
+            "type": "java",
+            "name": "MediatorPattern",
+            "request": "launch",
+            "mainClass": "it.gb.MediatorPattern",
+            "projectName": "Mediator Pattern"
         }
     ]
 }

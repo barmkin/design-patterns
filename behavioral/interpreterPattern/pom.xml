@@ -10,7 +10,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <mainClass>it.gb.interpreterPattern</mainClass>
+        <mainClass>it.gb.InterpreterPattern</mainClass>
     </properties>
 
     <build>

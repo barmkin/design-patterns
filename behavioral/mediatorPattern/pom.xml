@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.gb</groupId>
-    <artifactId>iteratorPattern</artifactId>
+    <artifactId>mediatorPattern</artifactId>
     <version>0.1.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <mainClass>it.gb.IteratorPattern</mainClass>
+        <mainClass>it.gb.MediatorPattern</mainClass>
     </properties>
 
     <build>
