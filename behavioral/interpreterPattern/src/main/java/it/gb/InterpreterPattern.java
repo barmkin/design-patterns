@@ -2,7 +2,6 @@ package it.gb;
 
 import it.gb.basicMathFunctions.CommandInterpreter;
 import it.gb.basicMathFunctions.InvalidCommandException;
-import it.gb.basicMathFunctions.MathCommand;
 import it.gb.generic.Context;
 import it.gb.generic.NonterminalExpression;
 import it.gb.generic.TerminalExpression;

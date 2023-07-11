@@ -6,30 +6,38 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "IteratorPattern",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "it.gb.IteratorPattern",
+            "projectName": "iteratorPattern"
         },
         {
             "type": "java",
             "name": "ChainOfResponsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
-            "projectName": "chainOfResponsibilityPattern"
+            "projectName": "Chain of Responsibility Pattern"
         },
         {
             "type": "java",
             "name": "CommandPattern",
             "request": "launch",
             "mainClass": "it.gb.CommandPattern",
-            "projectName": "commandPattern"
+            "projectName": "Command Pattern"
         },
         {
             "type": "java",
             "name": "InterpreterPattern",
             "request": "launch",
             "mainClass": "it.gb.InterpreterPattern",
-            "projectName": "interpreterPattern"
+            "projectName": "Interpreter Pattern"
+        },
+        {
+            "type": "java",
+            "name": "IteratorPattern",
+            "request": "launch",
+            "mainClass": "it.gb.IteratorPattern",
+            "projectName": "Iterator Pattern"
         }
     ]
 }
