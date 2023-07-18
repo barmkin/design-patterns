@@ -1,6 +1,16 @@
 # Design Patterns
 
-Tests, examples and playgrounds for studying Design Patterns. See each project for details.
+Tests, examples and playgrounds for studying Design Patterns. See each project for details. Each project can be built using the following command on the root of the project:
+
+```sh
+mvn clean package
+```
+
+and executed via
+
+```sh
+java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar 
+```
 
 Design Patterns are reusable, proven solutions to common problems that arise during software design and development. They are well-established templates or blueprints that provide guidelines and best practices for structuring and organizing code to address recurring challenges in software engineering.
 
@@ -24,16 +34,19 @@ When using Design Patterns, it is essential to consider the context and requirem
 Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
 
-### [Chain of Responsibility](./behavioral/chainOfResponsibilityPattern/src/main/java/it/gb/)
+### [Chain of Responsibility](./behavioral/chainOfResponsibilityPattern/)
 
-### [Command Pattern](./behavioral/commandPattern/src/main/java/it/gb/)
+### [Command Pattern](./behavioral/commandPattern/)
 
-### [Interpreter Pattern](./behavioral/interpreterPattern/src/main/java/it/gb/)
+### [Interpreter Pattern](./behavioral/interpreterPattern/)
 
-### [Iterator Pattern](./behavioral/iteratorPattern/src/main/java/it/gb/)
+### [Iterator Pattern](./behavioral/iteratorPattern/)
 
-### [Mediator Pattern](./behavioral/mediatorPattern/src/main/java/it/gb/)
+### [Mediator Pattern](./behavioral/mediatorPattern/)
 
-### [Memento Pattern](./behavioral/mementoPattern/src/main/java/it/gb/)
+### [Memento Pattern](./behavioral/mementoPattern/)
 
 ---
+
+## Java version used:
+openjdk version "17.0.7" 2023-04-18

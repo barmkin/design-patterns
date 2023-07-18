@@ -1,5 +1,5 @@
 # Command Pattern
-- ["Client" or "Main" class](./src/main/java/it/gb/CommandPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/CommandPattern.java)
 
 The Command Pattern is a behavioral design pattern used in software engineering to encapsulate a request as an object, thereby allowing parameterization of clients with different requests, queuing of requests, logging of the requests, and the ability to undo/redo operations. It helps decouple the sender (client) of a request from the receiver (invoker) of that request, promoting flexibility and extensibility in the system's architecture.
 

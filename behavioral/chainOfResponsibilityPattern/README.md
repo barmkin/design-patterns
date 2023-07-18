@@ -1,5 +1,5 @@
 # Chain of Responsibility
-- ["Client" or "Main" class](./src/main/java/it/gb/ChainOfResponsibility.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/ChainOfResponsibility.java)
 
 The Chain of Responsibility Pattern is a behavioral design pattern used in software engineering to create a chain of processing objects, where each object in the chain has the ability to handle a specific request or task. When a request is made, it is passed along the chain until one of the objects in the chain processes the request successfully.
 

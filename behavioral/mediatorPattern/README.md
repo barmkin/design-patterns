@@ -1,5 +1,5 @@
 # Mediator Pattern
-- ["Client" or "Main" class](./src/main/java/it/gb/MediatorPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/MediatorPattern.java)
 
 The Mediator Pattern is a behavioral design pattern used in software engineering to promote loose coupling between objects by providing a central mediator object that facilitates communication and coordination among various components within a system. It enables objects to interact with each other indirectly through the mediator, rather than directly referencing each other, reducing direct dependencies and simplifying the overall system architecture.
 

@@ -1,5 +1,5 @@
 # Iterator Pattern
-- ["Client" or "Main" class](./src/main/java/it/gb/IteratorPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/IteratorPattern.java)
 
 The Iterator Pattern is a behavioral design pattern used in software engineering to provide a standardized way to access elements of a collection (such as an array, list, or tree) without exposing the underlying representation of the collection. It allows sequential access to elements in the collection without needing to know its internal structure, making it easier to iterate over the elements and perform operations on them.
 

@@ -1,5 +1,5 @@
 # Interpreter Pattern
-- ["Client" or "Main" class](./src/main/java/it/gb/InterpreterPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/InterpreterPattern.java)
 
 The Interpreter Pattern is a behavioral design pattern used in software engineering to define a language or grammar for interpreting and executing specific expressions or sentences in that language. It allows you to implement a language interpreter, which processes sentences and performs operations based on their structure and meaning.
 

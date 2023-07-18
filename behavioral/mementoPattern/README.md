@@ -1,5 +1,5 @@
 # Memento Pattern
-- ["Client" or "Main" class](./src/main/java/it/gb/MementoPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/MementoPattern.java)
 
 The Memento Pattern is a behavioral design pattern used in software engineering to capture and externalize the internal state of an object without violating its encapsulation. This allows the object to be restored to a previous state later on, effectively providing the ability to undo/redo actions or revert to specific snapshots in time.
 
