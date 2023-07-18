@@ -18,10 +18,10 @@ public class CommandPattern {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, Command Pattern!");
+        System.out.println("Hello, Command Pattern  Playground!");
 
         // uncomment to play generic pattern
-        //CommandPattern.executeGeneric();    
+        // CommandPattern.executeGeneric();    
         
         // uncomment to play Document Writer
         DocumentWriterApp.testDocumentWriter();

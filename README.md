@@ -1,81 +1,39 @@
 # Design Patterns
-Tests, examples and playgrounds for studying Design Patterns
+
+Tests, examples and playgrounds for studying Design Patterns. See each project for details.
+
+Design Patterns are reusable, proven solutions to common problems that arise during software design and development. They are well-established templates or blueprints that provide guidelines and best practices for structuring and organizing code to address recurring challenges in software engineering.
+
+Design Patterns are not complete implementations or ready-to-use code snippets; rather, they are high-level concepts that can be applied to various situations. They help developers create software that is more robust, flexible, and maintainable by promoting key principles such as encapsulation, loose coupling, and separation of concerns.
+
+Design Patterns are categorized into three main types:
+
+- Creational Patterns: These patterns deal with the process of object creation, providing mechanisms to create objects in a manner suitable for the situation. Examples include Singleton, Factory Method, Abstract Factory, Builder, and Prototype patterns.
+
+- Structural Patterns: Structural patterns focus on class and object composition to form larger structures or relationships between classes. Examples include Adapter, Decorator, Facade, Bridge, and Composite patterns.
+
+- Behavioral Patterns: Behavioral patterns are concerned with the interaction and communication between objects. They help manage algorithms, relationships, and responsibilities among objects. Examples include Observer, Strategy, Template Method, Chain of Responsibility, and Command patterns.
+
+Design Patterns are not language-specific but are applicable to various programming languages. They serve as a common vocabulary for software developers, enabling them to communicate and understand design decisions and solutions more effectively.
+
+When using Design Patterns, it is essential to consider the context and requirements of the specific software project. Overusing patterns can lead to unnecessary complexity, while neglecting to apply patterns in appropriate situations can result in code that is harder to maintain and understand. The key is to apply the patterns judiciously and adapt them to the unique needs of the software being developed.
 
 ---
----
 
-## Behavioral
+## [Behavioral](./behavioral)
 Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
----
----
 
-### Chain of Responsibility
-The chain of responsibility pattern creates a chain of objects, where each object in the chain has a chance to handle a request. If one object cannot handle the request, it passes it to the next object in the chain until the request is handled or reaches the end of the chain.
+### [Chain of Responsibility](./behavioral/chainOfResponsibilityPattern/src/main/java/it/gb/)
 
-- "Client" or "Main" class: `behavioral/chainOfResponsibilityPattern/src/main/java/it/gb/ChainOfResponsibility.java`
+### [Command Pattern](./behavioral/commandPattern/src/main/java/it/gb/)
 
-In this project:
+### [Interpreter Pattern](./behavioral/interpreterPattern/src/main/java/it/gb/)
 
-#### Generic Example
-- Path: `behavioral/chainOfResponsibilityPattern/src/main/java/it/gb/generic`
+### [Iterator Pattern](./behavioral/iteratorPattern/src/main/java/it/gb/)
 
-Based on standard UML version of the pattern, it contains a simple task handled by handlers.
+### [Mediator Pattern](./behavioral/mediatorPattern/src/main/java/it/gb/)
 
-#### ATM Dispenser Machine
-- Path: `behavioral/chainOfResponsibilityPattern/src/main/java/it/gb/atmDispenserMachine`
-
-Given an amount, it models an ATM bills dispenser using the chain of responsibility pattern. Every dispenser also has a maximum number of bills. 
-
----
-
-### Command Pattern
-The command pattern encapsulates a request as an object, thereby allowing users to parameterize clients with different requests, queue or log requests, and support undoable operations.
-
-"Client" or "Main" class: `behavioral/commandPattern/src/main/java/it/gb/CommandPattern.java`
-
-#### Generic Example
-- Path: `behavioral/commandPattern/src/main/java/it/gb/generic`
-
-Based on standard UML version of the pattern, it contains a simple command, concrete command, invoker and a receiver.
-
-#### Simple Document Writer
-- Path: `behavioral/commandPattern/src/main/java/it/gb/simpleDocumentWriter`
-
-Using the command pattern, it creates a simple document writer with undoing capability (with max history length).
-
----
-
-### Interpreter Pattern
-The Interpreter Pattern is a behavioral design pattern that defines a way to evaluate sentences or expressions in a language by interpreting them. It provides a framework for interpreting and executing a domain-specific language or grammar.
-
-- "Client" or "Main" class: `behavioral/interpreterPattern/src/main/java/it/gb/InterpreterPattern.java`
-
-#### Generic Example
-- Path: `behavioral/commandPattern/src/main/java/it/gb/generic`
-
-Generic Interpreter pattern with "OR" logic based on simple text strings. It contains a context, a non-terminal expression and a terminal expression.
-
-#### Basic Math Functions
-- Path: `behavioral/interpreterPattern/src/main/java/it/gb/basicMathFunctions`
-
-Evaluate a string expression and return, if the statement is correct, the result of the basic mathematical functions (sum, subtraction, multiplication and division).
-
----
-
-### Iterator Pattern
-The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It separates the traversal of the elements from the underlying collection, providing a uniform interface for iteration.
-
-- "Client" or "Main" class: `behavioral/iteratorPattern/src/main/java/it/gb/IteratorPattern.java`
-
-#### Generic Example
-- Path: `behavioral/iteratorPattern/src/main/java/it/gb/generic`
-
-A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
-
-#### Music Library
-- Path: `behavioral/iteratorPattern/src/main/java/it/gb/musicLibrary`
-
-Iterates over a music playlist. Songs are ordered by artist
+### [Memento Pattern](./behavioral/mementoPattern/src/main/java/it/gb/)
 
 ---

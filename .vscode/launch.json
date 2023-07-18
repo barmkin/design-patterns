@@ -6,45 +6,45 @@
     "configurations": [
         {
             "type": "java",
-            "name": "ChainOfResponsibility",
+            "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
-            "projectName": "Chain of Responsibility Pattern"
+            "projectName": "chainOfResponsibilityPattern"
         },
         {
             "type": "java",
-            "name": "CommandPattern",
+            "name": "Command Pattern",
             "request": "launch",
             "mainClass": "it.gb.CommandPattern",
-            "projectName": "Command Pattern"
+            "projectName": "commandPattern"
         },
         {
             "type": "java",
-            "name": "InterpreterPattern",
+            "name": "Interpreter Pattern",
             "request": "launch",
             "mainClass": "it.gb.InterpreterPattern",
-            "projectName": "Interpreter Pattern"
+            "projectName": "interpreterPattern"
         },
         {
             "type": "java",
-            "name": "IteratorPattern",
+            "name": "Iterator Pattern",
             "request": "launch",
             "mainClass": "it.gb.IteratorPattern",
-            "projectName": "Iterator Pattern"
+            "projectName": "iteratorPattern"
         },
         {
             "type": "java",
-            "name": "MediatorPattern",
+            "name": "Mediator Pattern",
             "request": "launch",
             "mainClass": "it.gb.MediatorPattern",
-            "projectName": "Mediator Pattern"
+            "projectName": "mediatorPattern"
         },
         {
             "type": "java",
-            "name": "MementoPattern",
+            "name": "Memento Pattern",
             "request": "launch",
             "mainClass": "it.gb.MementoPattern",
-            "projectName": "Memento Pattern"
+            "projectName": "mementoPattern"
         }
     ]
 }

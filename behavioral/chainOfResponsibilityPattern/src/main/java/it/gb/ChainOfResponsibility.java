@@ -58,12 +58,12 @@ public class ChainOfResponsibility {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, Chain of Responsibility Pattern!");
+        System.out.println("Hello, Chain of Responsibility Pattern Playground!");
 
         // uncomment to play generic pattern
         // ChainOfResponsibility.executeGeneric();
 
         // uncomment to play atm dispenser example
-        ChainOfResponsibility.executeAtmDispenserExample();        
+        // ChainOfResponsibility.executeAtmDispenserExample();        
     }
 }
