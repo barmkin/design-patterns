@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "MediatorPattern",
-            "request": "launch",
-            "mainClass": "it.gb.MediatorPattern",
-            "projectName": "mediatorPattern"
-        },
-        {
-            "type": "java",
             "name": "ChainOfResponsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
@@ -45,6 +38,13 @@
             "request": "launch",
             "mainClass": "it.gb.MediatorPattern",
             "projectName": "Mediator Pattern"
+        },
+        {
+            "type": "java",
+            "name": "MementoPattern",
+            "request": "launch",
+            "mainClass": "it.gb.MementoPattern",
+            "projectName": "Memento Pattern"
         }
     ]
 }
