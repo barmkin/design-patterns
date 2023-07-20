@@ -1,44 +1,41 @@
 package it.gb;
 
-import it.gb.basicMathFunctions.CommandInterpreter;
-import it.gb.basicMathFunctions.InvalidCommandException;
-import it.gb.generic.Context;
-import it.gb.generic.NonterminalExpression;
-import it.gb.generic.TerminalExpression;
+import it.gb.generic.Client;
+import it.gb.basicMathFunctions.BasicMathFunctionsApp;
+
 
 public class InterpreterPattern {
+    public static enum examples_list  {
+        generic,
+        basicMathFunctions
+    };
 
-    public static void executeGeneric(String letter) {
-        // Generic OR Interpreter pattern on string - setup terminal
-        Context c1 = new Context("A");
-        Context c2 = new Context("B");
-        TerminalExpression t1 = new TerminalExpression(c1);
-        TerminalExpression t2 = new TerminalExpression(c2);
-
-        // Setup non terminal (Simple OR)
-        NonterminalExpression nt1 = new NonterminalExpression(t1, t2);
-
-        // Test input
-        Context test = new Context(letter);
-        System.out.println(nt1.interpret(test));
-
+    private static void printValidArgs() {
+        System.out.println("List of valid arguments:");
+        for (InterpreterPattern.examples_list example : examples_list.values()) {
+            System.out.println(example.name());
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, Interpreter Pattern!");
+        System.out.println("Hello, Interpreter Pattern Playground!");
 
-        // uncomment to play generic pattern
-        //InterpreterPattern.executeGeneric("B");
-
-        // uncomment to play Basic Math Functions
-        try {
-            // 7 - -5 = 2
-            String command = "sum(sub(7.05,1.55)  , div(9, mul(0.5, 4)))";
-            double result = CommandInterpreter.interpretCommand(command);
-            System.out.println(command + " = " + result);
-        } catch (InvalidCommandException ice) {
-            System.err.println("Check syntax!");
-            ice.printStackTrace();
+        if (args != null && args.length > 0) {
+            for (String arg : args) {
+                if (InterpreterPattern.examples_list.generic.name().equals(arg)) {
+                    Client.executeGeneric("B");
+                } else if (InterpreterPattern.examples_list.basicMathFunctions.name().equals(arg)) {
+                    BasicMathFunctionsApp.executeBasicMathFunctionsApp(
+                        "sum(sub(7.05,1.55)  , div(9, mul(0.5, 4)))");
+                } else {
+                    System.out.println("Cannot find example \"" + arg + "\". Check args!");
+                    InterpreterPattern.printValidArgs();
+                }
+            }
+        } else {
+            System.out.println("Add arg like \"generic\" to play examples.");
+            InterpreterPattern.printValidArgs();
         }
     }
+
 }

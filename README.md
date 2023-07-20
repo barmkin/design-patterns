@@ -1,5 +1,6 @@
 # Design Patterns
 
+## How to run
 Tests, examples and playgrounds for studying Design Patterns. See each project for details. Each project can be built using the following command on the root of the project:
 
 ```sh
@@ -11,6 +12,10 @@ and executed via
 ```sh
 java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar 
 ```
+
+or simply run/debug via VSCode see [launch.json](./.vscode/launch.json)
+
+## Design Patterns
 
 Design Patterns are reusable, proven solutions to common problems that arise during software design and development. They are well-established templates or blueprints that provide guidelines and best practices for structuring and organizing code to address recurring challenges in software engineering.
 

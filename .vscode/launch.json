@@ -9,42 +9,63 @@
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
-            "projectName": "chainOfResponsibilityPattern"
+            "projectName": "chainOfResponsibilityPattern",
+            "args": [
+                "atmDispenserMachine",
+                "invalidArgumentTest"
+            ]
         },
         {
             "type": "java",
             "name": "Command Pattern",
             "request": "launch",
             "mainClass": "it.gb.CommandPattern",
-            "projectName": "commandPattern"
+            "projectName": "commandPattern",
+            "args": [
+                "simpleDocumentWriter"
+            ]
         },
         {
             "type": "java",
             "name": "Interpreter Pattern",
             "request": "launch",
             "mainClass": "it.gb.InterpreterPattern",
-            "projectName": "interpreterPattern"
+            "projectName": "interpreterPattern",
+            "args": [
+                "generic",
+                "basicMathFunctions"
+            ]
         },
         {
             "type": "java",
             "name": "Iterator Pattern",
             "request": "launch",
             "mainClass": "it.gb.IteratorPattern",
-            "projectName": "iteratorPattern"
+            "projectName": "iteratorPattern",
+            "args": [
+                "musicLibrary"
+            ]
         },
         {
             "type": "java",
             "name": "Mediator Pattern",
             "request": "launch",
             "mainClass": "it.gb.MediatorPattern",
-            "projectName": "mediatorPattern"
+            "projectName": "mediatorPattern",
+            "args": [
+                "simpleChat"
+            ]
         },
         {
             "type": "java",
             "name": "Memento Pattern",
             "request": "launch",
             "mainClass": "it.gb.MementoPattern",
-            "projectName": "mementoPattern"
+            "projectName": "mementoPattern",
+            "args": [
+                "generic",
+                "simpleFileManager"
+            ]
         }
     ]
 }

@@ -1,8 +1,9 @@
 package it.gb.simpleDocumentWriter;
 
 // client
-public class DocumentWriterApp {
-    public static void testDocumentWriter() {
+public abstract class DocumentWriterApp {
+
+    public static void executeDocumentWriterApp() {
         CommandRunner commandRunner = new CommandRunner();  
         Document document = new Document();      
 

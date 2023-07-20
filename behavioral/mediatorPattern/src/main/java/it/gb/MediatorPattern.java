@@ -1,46 +1,40 @@
 package it.gb;
 
-import it.gb.generic.ConcreteMediator;
-import it.gb.simpleChat.ChatUser;
-import it.gb.simpleChat.ConcreteChatMediator;
+import it.gb.generic.Client;
+import it.gb.simpleChat.SimpleChatApp;
+
 
 public class MediatorPattern {
+    public static enum examples_list  {
+        generic,
+        simpleChat
+    };
 
-    public static void executeGeneric() {
-        ConcreteMediator mediator = new ConcreteMediator();
-
-        mediator.assignTask1();
-        mediator.assignTask2();
-        mediator.assignTaskToAll();
+    private static void printValidArgs() {
+        System.out.println("List of valid arguments:");
+        for (MediatorPattern.examples_list example : examples_list.values()) {
+            System.out.println(example.name());
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, Mediator Pattern!");
+        System.out.println("Hello, Mediator Pattern Playground!");
 
-        // uncomment to play generic mediator pattern to coordinate
-        // assigning task
-        //executeGeneric();
-
-        // a simple chat
-        ConcreteChatMediator chat = new ConcreteChatMediator();
-        ChatUser user1 = new ChatUser(chat, "us3r0n3");
-        ChatUser user2 = new ChatUser(chat, "us3r7w0");
-        ChatUser user3 = new ChatUser(chat, "us3rt7r33");
-
-        user1.connect();
-        user2.connect();
-
-        user1.sendMessage("Hi!");
-        user2.sendMessage("Hello!");
-        user1.sendMessage(":)");
-        user2.disconnect();
-        user1.sendMessage("T_T");
-        user3.connect();
-        user1.sendMessage("Hi!");
-        user3.sendMessage("Hello there!"); 
-        
-        user1.disconnect();
-        user3.disconnect();
-
+        if (args != null && args.length > 0) {
+            for (String arg : args) {
+                if (MediatorPattern.examples_list.generic.name().equals(arg)) {
+                    Client.executeGeneric();
+                } else if (MediatorPattern.examples_list.simpleChat.name().equals(arg)) {
+                    SimpleChatApp.executeSimpleChatApp();
+                } else {
+                    System.out.println("Cannot find example \"" + arg + "\". Check args!");
+                    MediatorPattern.printValidArgs();
+                }
+            }
+        } else {
+            System.out.println("Add arg like \"generic\" to play examples.");
+            MediatorPattern.printValidArgs();
+        }
     }
+
 }
