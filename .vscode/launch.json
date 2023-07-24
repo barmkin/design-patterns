@@ -66,6 +66,16 @@
                 "generic",
                 "simpleFileManager"
             ]
+        },
+        {
+            "type": "java",
+            "name": "Observer Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.ObserverPattern",
+            "projectName": "observerPattern",
+            "args": [
+                "generic"
+            ]
         }
     ]
 }

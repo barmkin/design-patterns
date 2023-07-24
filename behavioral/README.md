@@ -47,3 +47,10 @@ The primary purpose of the Memento Pattern is to separate the state-saving mecha
 
 ---
 
+### [Observer Pattern](./observerPattern/)
+The Observer Pattern is a behavioral design pattern used in software engineering to establish a one-to-many dependency between objects. In this pattern, when one object (the subject or observable) undergoes a change in state, all its dependent objects (observers) are automatically notified and updated.
+
+The Observer Pattern promotes loose coupling between the subject and its observers, as observers are not directly aware of the subject's existence and vice versa. Instead, they rely on a common interface or contract that allows them to receive updates from the subject.
+
+---
+

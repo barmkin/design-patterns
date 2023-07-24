@@ -13,7 +13,7 @@ and executed via
 java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar 
 ```
 
-or simply run/debug via VSCode see [launch.json](./.vscode/launch.json)
+or simply run/debug via VSCode, see [launch.json](./.vscode/launch.json)
 
 ## Design Patterns
 
@@ -50,6 +50,8 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 ### [Mediator Pattern](./behavioral/mediatorPattern/)
 
 ### [Memento Pattern](./behavioral/mementoPattern/)
+
+### [Observer Pattern](./behavioral/observerPattern/)
 
 ---
 
