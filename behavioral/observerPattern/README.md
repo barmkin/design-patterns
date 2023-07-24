@@ -33,7 +33,7 @@ Overall, the Observer Pattern promotes the principle of "separate what varies" b
 
 A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
 
-## UNKNOWN
-- [Folder Path](./src/main/java/it/gb/UNKNOWN)
+## Weather Station
+- [Folder Path](./src/main/java/it/gb/weatherStation/)
 
-TODO
+A simple weather station with temperature and humidity and 2 type of observers.

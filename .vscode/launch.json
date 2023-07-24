@@ -74,7 +74,7 @@
             "mainClass": "it.gb.ObserverPattern",
             "projectName": "observerPattern",
             "args": [
-                "generic"
+                "weatherStation"
             ]
         }
     ]

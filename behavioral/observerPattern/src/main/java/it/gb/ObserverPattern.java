@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.weatherStation.WeatherStationApp;
 
 public class ObserverPattern {
     public static enum examples_list {
         generic,
-        todooo
+        weatherStation
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class ObserverPattern {
             for (String arg : args) {
                 if (ObserverPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (ObserverPattern.examples_list.todooo.name().equals(arg)) {
-                    // SimpleFileManagerApp.executeSimpleFileManagerApp();
+                } else if (ObserverPattern.examples_list.weatherStation.name().equals(arg)) {
+                    WeatherStationApp.executeWeatherStationApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     ObserverPattern.printValidArgs();
