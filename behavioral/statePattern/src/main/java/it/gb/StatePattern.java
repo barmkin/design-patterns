@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.vendingMachine.VendingMachineApp;
 
 public class StatePattern {
     public static enum examples_list {
         generic,
-        todo
+        vendingMachine
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class StatePattern {
             for (String arg : args) {
                 if (StatePattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (StatePattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (StatePattern.examples_list.vendingMachine.name().equals(arg)) {
+                    VendingMachineApp.executeVendingMachineApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     StatePattern.printValidArgs();

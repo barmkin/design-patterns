@@ -31,7 +31,7 @@ In summary, the State Pattern facilitates dynamic behavior changes in objects by
 
 A simple states transition exercise based on UML version of the pattern.
 
-## TODO
-- [Folder Path](./src/main/java/it/gb/TODO/)
+## Vending Machine
+- [Folder Path](./src/main/java/it/gb/vendingMachine/)
 
-TODO.
+Simulate a vending machine states. 4 different states.

@@ -84,7 +84,7 @@
             "mainClass": "it.gb.StatePattern",
             "projectName": "statePattern",
             "args": [
-                "generic"
+                "vendingMachine"
             ]
         }
     ]
