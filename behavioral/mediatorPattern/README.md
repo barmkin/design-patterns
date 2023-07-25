@@ -31,7 +31,7 @@ By using the Mediator Pattern, developers can achieve a more flexible, maintaina
 ## Generic Example
 - [Folder Path](./src/main/java/it/gb/generic)
 
-A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
+A simple implementation with 2 concrete colleague communicating via Mediator.
 
 ## Simple Chat
 - [Folder Path](./src/main/java/it/gb/simpleChat)

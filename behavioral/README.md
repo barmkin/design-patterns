@@ -54,3 +54,10 @@ The Observer Pattern promotes loose coupling between the subject and its observe
 
 ---
 
+### [State Pattern](./statePattern/)
+The State Pattern is a behavioral design pattern used in software engineering to allow an object to change its behavior when its internal state changes. It allows an object to appear as if it has changed its class, effectively altering its behavior based on its current state without modifying its structure.
+
+The State Pattern is particularly useful when an object's behavior depends on multiple states, and transitions between these states are complex or frequent. By encapsulating each state into a separate class and allowing the object to switch between these states, the pattern promotes a more organized and maintainable codebase.
+
+---
+

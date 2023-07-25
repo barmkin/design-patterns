@@ -31,7 +31,7 @@ Overall, the Observer Pattern promotes the principle of "separate what varies" b
 ## Generic Example
 - [Folder Path](./src/main/java/it/gb/generic)
 
-A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
+A generic Concrete Observer listening on changes of the Concrete Subject.
 
 ## Weather Station
 - [Folder Path](./src/main/java/it/gb/weatherStation/)

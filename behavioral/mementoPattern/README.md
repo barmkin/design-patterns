@@ -27,7 +27,7 @@ By employing the Memento Pattern, you can offer users the ability to revert to p
 ## Generic Example
 - [Folder Path](./src/main/java/it/gb/generic)
 
-A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
+From UML to classes structure, a generic example of the memento pattern with a Caretaker. WARN: no max stack size for history.
 
 ## Simple File Manager
 - [Folder Path](./src/main/java/it/gb/musicLibrary)

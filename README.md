@@ -53,6 +53,8 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 
 ### [Observer Pattern](./behavioral/observerPattern/)
 
+### [State Pattern](./behavioral/statePattern/)
+
 ---
 
 ## Java version used:

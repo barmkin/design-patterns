@@ -76,6 +76,16 @@
             "args": [
                 "weatherStation"
             ]
+        },
+        {
+            "type": "java",
+            "name": "State Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.StatePattern",
+            "projectName": "statePattern",
+            "args": [
+                "generic"
+            ]
         }
     ]
 }
