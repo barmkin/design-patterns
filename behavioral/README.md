@@ -61,3 +61,10 @@ The State Pattern is particularly useful when an object's behavior depends on mu
 
 ---
 
+### [Strategy Pattern](./strategyPattern/)
+The Strategy Pattern is a behavioral design pattern used in software engineering to define a family of algorithms or behaviors, encapsulate each one, and make them interchangeable. It allows clients to use different strategies without altering their structure, promoting flexibility and runtime behavior modification.
+
+The main purpose of the Strategy Pattern is to separate the algorithm or behavior implementation from the context in which it is used. This enables the client to choose and switch between different strategies at runtime, depending on the specific requirements or conditions.
+
+---
+

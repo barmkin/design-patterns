@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StrategyPattern",
+            "request": "launch",
+            "mainClass": "it.gb.StrategyPattern"
+        },
+        {
+            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
@@ -85,6 +91,16 @@
             "projectName": "statePattern",
             "args": [
                 "vendingMachine"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Strategy Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.StrategyPattern",
+            "projectName": "strategyPattern",
+            "args": [
+                "generic"
             ]
         }
     ]
