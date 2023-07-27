@@ -2,7 +2,10 @@ package it.gb.generic;
 
 public abstract class Client {
     
-    public static void executeGeneric(String letter) {
+    public static void executeGeneric() {
+        // Configuration
+        String letter = "B"; // Test if this letter is valid
+
         // Generic OR Interpreter pattern on string - setup terminal
         Context c1 = new Context("A");
         Context c2 = new Context("B");

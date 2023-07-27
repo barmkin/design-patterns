@@ -23,9 +23,7 @@ public class IteratorPattern {
         if (args != null && args.length > 0) {
             for (String arg : args) {
                 if (IteratorPattern.examples_list.generic.name().equals(arg)) {
-                    Client.executeGeneric(
-                        new Short[]{Short.MIN_VALUE, 100, 10005, 8474, 3945, Short.MAX_VALUE}
-                    );
+                    Client.executeGeneric();
                 } else if (IteratorPattern.examples_list.musicLibrary.name().equals(arg)) {
                     MusicLibraryApp.executeMusicLibraryApp();
                 } else {

@@ -23,10 +23,9 @@ public class InterpreterPattern {
         if (args != null && args.length > 0) {
             for (String arg : args) {
                 if (InterpreterPattern.examples_list.generic.name().equals(arg)) {
-                    Client.executeGeneric("B");
+                    Client.executeGeneric();
                 } else if (InterpreterPattern.examples_list.basicMathFunctions.name().equals(arg)) {
-                    BasicMathFunctionsApp.executeBasicMathFunctionsApp(
-                        "sum(sub(7.05,1.55)  , div(9, mul(0.5, 4)))");
+                    BasicMathFunctionsApp.executeBasicMathFunctionsApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     InterpreterPattern.printValidArgs();

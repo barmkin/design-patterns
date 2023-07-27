@@ -7,9 +7,6 @@ public abstract class MusicLibraryApp {
     public static void executeMusicLibraryApp() {
         System.out.println("Hello, Iterator Pattern!");
 
-        // uncomment to play generic iterator on a simple list 
-        // executeGeneric(new Short[]{Short.MIN_VALUE, 100, 10005, 8474, 3945, Short.MAX_VALUE});
-
         // An overcomplicated music library
         MusicLibrary myPlaylist = new MusicLibrary();
         myPlaylist.addSong(new Song(
