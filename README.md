@@ -1,6 +1,7 @@
 # Design Patterns
 
 ## How to run
+
 Tests, examples and playgrounds for studying Design Patterns. See each project for details. Each project can be built using the following command on the root of the project:
 
 ```sh
@@ -15,7 +16,7 @@ java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar
 
 or simply run/debug via VSCode, see [launch.json](./.vscode/launch.json)
 
-## Design Patterns
+## Design Patterns in a few words
 
 Design Patterns are reusable, proven solutions to common problems that arise during software design and development. They are well-established templates or blueprints that provide guidelines and best practices for structuring and organizing code to address recurring challenges in software engineering.
 
@@ -36,8 +37,8 @@ When using Design Patterns, it is essential to consider the context and requirem
 ---
 
 ## [Behavioral](./behavioral)
-Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
+Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
 ### [Chain of Responsibility](./behavioral/chainOfResponsibilityPattern/)
 
@@ -59,5 +60,6 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 
 ---
 
-## Java version used:
-openjdk version "17.0.7" 2023-04-18
+## Debug info
+
+- Java version used: `openjdk version "17.0.7" 2023-04-18`
