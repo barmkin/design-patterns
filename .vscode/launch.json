@@ -100,7 +100,8 @@
             "mainClass": "it.gb.StrategyPattern",
             "projectName": "strategyPattern",
             "args": [
-                "generic"
+                "generic",
+                "sortingAlgorithms"
             ]
         }
     ]

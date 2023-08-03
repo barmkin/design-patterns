@@ -32,8 +32,8 @@ Overall, the Strategy Pattern promotes code reusability, maintainability, and ex
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Sorting Algorithms
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/sortingAlgorithms/)
 
-TODO
+Choose three different strategies to sort an array of integers. This example also calculates the time in seconds.
