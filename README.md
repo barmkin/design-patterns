@@ -58,6 +58,8 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 
 ### [Strategy Pattern](./behavioral/strategyPattern/)
 
+### [Template Method Pattern](./behavioral/templateMethodPattern/)
+
 ---
 
 ## Debug info

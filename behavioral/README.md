@@ -75,3 +75,11 @@ The Strategy Pattern is a behavioral design pattern used in software engineering
 The main purpose of the Strategy Pattern is to separate the algorithm or behavior implementation from the context in which it is used. This enables the client to choose and switch between different strategies at runtime, depending on the specific requirements or conditions.
 
 ---
+
+## [Template Method Pattern](./templateMethodPattern/)
+
+The Template Method Pattern is a behavioral design pattern used in software engineering to define the structure of an algorithm or a sequence of steps, allowing subclasses to provide specific implementations for certain steps. It encapsulates the common algorithm structure in a base class and delegates the implementation of specific steps to subclasses.
+
+The main goal of the Template Method Pattern is to provide a framework for creating algorithms while allowing customization of individual steps. This promotes code reuse and reduces duplication by centralizing common code in the base class and enabling subclasses to focus on the unique aspects of their implementations.
+
+---

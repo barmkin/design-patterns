@@ -6,12 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "StrategyPattern",
-            "request": "launch",
-            "mainClass": "it.gb.StrategyPattern"
-        },
-        {
-            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
@@ -102,6 +96,16 @@
             "args": [
                 "generic",
                 "sortingAlgorithms"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Template Method Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.TemplateMethodPattern",
+            "projectName": "templateMethodPattern",
+            "args": [
+                "generic"
             ]
         }
     ]
