@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.onlineLearningPlatform.OnlineLearningPlatformApp;
 
 public class TemplateMethodPattern {
     public static enum examples_list {
         generic,
-        todo
+        onlineLearningPlatform
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class TemplateMethodPattern {
             for (String arg : args) {
                 if (TemplateMethodPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (TemplateMethodPattern.examples_list.todo.name().equals(arg)) {
-                    // TODO
+                } else if (TemplateMethodPattern.examples_list.onlineLearningPlatform.name().equals(arg)) {
+                    OnlineLearningPlatformApp.executeOnlineLearningPlatformApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     TemplateMethodPattern.printValidArgs();
