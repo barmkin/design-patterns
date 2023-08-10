@@ -30,8 +30,8 @@ In summary, the Template Method Pattern offers a way to create reusable algorith
 
 A simple exercise based on UML version of this pattern.
 
-## Sorting Algorithms
+## Online Learning Platform Algorithms
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/onlineLearningPlatform/)
 
-TODO
+Definition of an abstract course and 2 implementations using the template method pattern.

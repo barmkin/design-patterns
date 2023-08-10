@@ -107,6 +107,16 @@
             "args": [
                 "onlineLearningPlatform"
             ]
+        },
+        {
+            "type": "java",
+            "name": "Visitor Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.VisitorPattern",
+            "projectName": "visitorPattern",
+            "args": [
+                "generic"
+            ]
         }
     ]
 }
