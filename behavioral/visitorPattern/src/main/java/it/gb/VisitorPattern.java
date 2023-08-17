@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.zooAnimals.ZooAnimalsApp;
 
 public class VisitorPattern {
     public static enum examples_list {
         generic,
-        todo
+        zooAnimals
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class VisitorPattern {
             for (String arg : args) {
                 if (VisitorPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (VisitorPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (VisitorPattern.examples_list.zooAnimals.name().equals(arg)) {
+                    ZooAnimalsApp.executeZooAnimalsApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     VisitorPattern.printValidArgs();

@@ -36,8 +36,8 @@ Overall, the Visitor Pattern provides a way to encapsulate operations on complex
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Zoo Animals
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/zooAnimals/)
 
-TODO
+A simple model of a zoo where Zookeepers and Researchers can visit the Animals.

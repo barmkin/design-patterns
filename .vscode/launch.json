@@ -115,7 +115,7 @@
             "mainClass": "it.gb.VisitorPattern",
             "projectName": "visitorPattern",
             "args": [
-                "generic"
+                "zooAnimals"
             ]
         }
     ]
