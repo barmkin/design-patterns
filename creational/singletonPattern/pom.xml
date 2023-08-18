@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.gb</groupId>
-    <artifactId>chainOfResponsibilityPattern</artifactId>
+    <artifactId>singletonPattern</artifactId>
     <version>0.1.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <mainClass>it.gb.ChainOfResponsibilityPattern</mainClass>
+        <mainClass>it.gb.SingletonPattern</mainClass>
     </properties>
 
     <build>

@@ -36,11 +36,25 @@ When using Design Patterns, it is essential to consider the context and requirem
 
 ---
 
+## [Creational](./creational)
+
+Creational design patterns are a set of software design principles that provide solutions for object creation mechanisms, making it easier to instantiate and configure objects in a flexible and efficient manner. These patterns help manage the process of creating objects, balancing factors like flexibility, simplicity, and performance in various software scenarios.
+
+### [Singleton Pattern](./creational/singletonPattern/)
+
+---
+
+## [Structural](./structural)
+
+Structural design patterns are a collection of software design strategies that focus on how objects and classes are structured and composed to form larger structures, ensuring adaptability and efficient interaction among components. These patterns aid in creating clear relationships between different parts of a software system while maintaining flexibility and reusability.
+
+---
+
 ## [Behavioral](./behavioral)
 
 Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
-### [Chain of Responsibility](./behavioral/chainOfResponsibilityPattern/)
+### [Chain of Responsibility Pattern](./behavioral/chainOfResponsibilityPattern/)
 
 ### [Command Pattern](./behavioral/commandPattern/)
 
@@ -59,6 +73,8 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 ### [Strategy Pattern](./behavioral/strategyPattern/)
 
 ### [Template Method Pattern](./behavioral/templateMethodPattern/)
+
+### [Visitor Pattern](./behavioral/visitorPattern/)
 
 ---
 

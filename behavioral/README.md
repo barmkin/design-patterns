@@ -4,7 +4,7 @@ Behavioral design patterns are concerned with the delegation of responsibilities
 
 ---
 
-## [Chain of Responsibility](./chainOfResponsibilityPattern/)
+## [Chain of Responsibility Pattern](./chainOfResponsibilityPattern/)
 
 The Chain of Responsibility Pattern is a behavioral design pattern used in software engineering to create a chain of processing objects, where each object in the chain has the ability to handle a specific request or task. When a request is made, it is passed along the chain until one of the objects in the chain processes the request successfully.
 
@@ -83,3 +83,9 @@ The Template Method Pattern is a behavioral design pattern used in software engi
 The main goal of the Template Method Pattern is to provide a framework for creating algorithms while allowing customization of individual steps. This promotes code reuse and reduces duplication by centralizing common code in the base class and enabling subclasses to focus on the unique aspects of their implementations.
 
 ---
+
+## [Visitor Pattern](./visitorPattern/)
+
+The Visitor Pattern is a behavioral design pattern used in software engineering to separate the structure of an object hierarchy from the algorithms or operations performed on that hierarchy. It allows you to add new operations to an existing class hierarchy without modifying the classes themselves. The Visitor Pattern is particularly useful when you have a complex hierarchy of objects and multiple distinct operations that need to be performed on these objects.
+
+The main idea behind the Visitor Pattern is to define a set of visitor classes, each of which encapsulates a specific operation to be performed on the elements of the object hierarchy. The elements in the hierarchy accept a visitor and delegate the operation to the visitor, allowing different operations to be applied without altering the classes.

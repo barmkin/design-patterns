@@ -1,4 +1,4 @@
-# Chain of Responsibility
+# Chain of Responsibility Pattern
 
 - ["Launcher" or "Main" class](./src/main/java/it/gb/ChainOfResponsibility.java)
 

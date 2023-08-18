@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SingletonPattern",
+            "request": "launch",
+            "mainClass": "it.gb.SingletonPattern",
+            "projectName": "singletonPattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",
