@@ -1,11 +1,12 @@
 package it.gb;
 
+import it.gb.configurationManager.ConfigurationManagerApp;
 import it.gb.generic.Client;
 
 public class SingletonPattern {
     public static enum examples_list {
         generic,
-        todo
+        configurationManager
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class SingletonPattern {
             for (String arg : args) {
                 if (SingletonPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (SingletonPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (SingletonPattern.examples_list.configurationManager.name().equals(arg)) {
+                    ConfigurationManagerApp.executeConfigurationManagerApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     SingletonPattern.printValidArgs();

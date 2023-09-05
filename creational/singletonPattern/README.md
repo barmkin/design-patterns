@@ -21,3 +21,15 @@ Consider a Logger class that is responsible for logging messages across differen
 By utilizing the Singleton Pattern, you guarantee that the logging operations are controlled and consistent, as all components access the same Logger instance. This pattern also helps avoid conflicts that might arise from multiple instances trying to manage the same log file.
 
 However, it's important to use the Singleton Pattern judiciously, as it introduces global state and can lead to tight coupling between different parts of the application. Overusing singletons can make code harder to test and maintain.
+
+## Generic Example
+
+- [Folder Path](./src/main/java/it/gb/generic)
+
+A simple exercise based on UML version of this pattern.
+
+## Configuration Manager
+
+- [Folder Path](./src/main/java/it/gb/configurationManager/)
+
+A simple configuration manager used for storing String, Integer and Boolean values.
