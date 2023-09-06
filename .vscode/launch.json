@@ -16,6 +16,16 @@
         },
         {
             "type": "java",
+            "name": "BuilderPattern",
+            "request": "launch",
+            "mainClass": "it.gb.BuilderPattern",
+            "projectName": "builderPattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",

@@ -42,6 +42,8 @@ Creational design patterns are a set of software design principles that provide 
 
 ### [Singleton Pattern](./creational/singletonPattern/)
 
+### [Builder Pattern](./creational/builderPattern/)
+
 ---
 
 ## [Structural](./structural)
