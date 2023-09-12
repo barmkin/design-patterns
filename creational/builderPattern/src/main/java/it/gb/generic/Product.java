@@ -1,16 +1,23 @@
 package it.gb.generic;
 
-import java.util.Date;
+import java.time.LocalDate;
 
-public class Product extends AbstractProduct {
+public class Product {
+
+    private int productId;
+    private String productName;
+    private String productDescription;
+    private boolean expires;
+    private LocalDate expirationDate;
+    private float price;
 
     public Product(ConcreteBuilder builder) {
-        this.expirationDate = builder.expirationDate;
-        this.expires = builder.expires;
-        this.price = builder.price;
-        this.productDescription = builder.productDescription;
-        this.productId = builder.productId;
-        this.productName = builder.productName;
+        this.expirationDate = builder.getExpirationDate();
+        this.expires = builder.isExpires();
+        this.price = builder.getPrice();
+        this.productDescription = builder.getProductDescription();
+        this.productId = builder.getProductId();
+        this.productName = builder.getProductName();
     }
 
     public int getProductId() {
@@ -25,7 +32,7 @@ public class Product extends AbstractProduct {
         return this.productDescription;
     }
     
-    public Date getExpirationDate() {
+    public LocalDate getExpirationDate() {
         return this.expirationDate;
     }
     

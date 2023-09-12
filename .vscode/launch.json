@@ -21,7 +21,8 @@
             "mainClass": "it.gb.BuilderPattern",
             "projectName": "builderPattern",
             "args": [
-                "generic"
+                "generic",
+                "pizzaBuilder"
             ]
         },
         {

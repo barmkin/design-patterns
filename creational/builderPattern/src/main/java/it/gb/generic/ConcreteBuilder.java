@@ -1,10 +1,15 @@
 package it.gb.generic;
 
-import java.util.Date;
+import java.time.LocalDate;
 
-public class ConcreteBuilder
-    extends AbstractProduct
-    implements BuilderInterface {
+public class ConcreteBuilder implements BuilderInterface {
+
+    private int productId;
+    private String productName;
+    private String productDescription;
+    private boolean expires;
+    private LocalDate expirationDate;
+    private float price;
 
     public ConcreteBuilder() {
         super();
@@ -24,7 +29,7 @@ public class ConcreteBuilder
     }
 
     @Override
-    public BuilderInterface setExpirationDate(Date expirationDate) {
+    public BuilderInterface setExpirationDate(LocalDate expirationDate) {
         if (expirationDate != null) {
             this.expires = true;
         } else {
@@ -38,5 +43,29 @@ public class ConcreteBuilder
     public BuilderInterface addPriceTag(float price) {
         this.price = price;
         return this;
+    }
+
+    public int getProductId() {
+        return productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public String getProductDescription() {
+        return productDescription;
+    }
+
+    public boolean isExpires() {
+        return expires;
+    }
+
+    public LocalDate getExpirationDate() {
+        return expirationDate;
+    }
+
+    public float getPrice() {
+        return price;
     }
 }

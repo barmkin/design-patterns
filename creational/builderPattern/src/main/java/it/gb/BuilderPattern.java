@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.pizzaBuilder.PizzaBuilderApp;
 
 public class BuilderPattern {
     public static enum examples_list {
         generic,
-        todo
+        pizzaBuilder
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class BuilderPattern {
             for (String arg : args) {
                 if (BuilderPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (BuilderPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (BuilderPattern.examples_list.pizzaBuilder.name().equals(arg)) {
+                    PizzaBuilderApp.executePizzaBuilderApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     BuilderPattern.printValidArgs();

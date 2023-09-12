@@ -1,5 +1,7 @@
 package it.gb.generic;
 
+import java.time.LocalDate;
+
 public abstract class Client {
     
     public static void executeGeneric() {
@@ -13,6 +15,18 @@ public abstract class Client {
         Product tshirt = new Product(concreteBuilder);
 
         System.out.println(tshirt);
+
+        // Create another product
+        concreteBuilder = new ConcreteBuilder();
+        concreteBuilder
+            .buildBaseProduct(239487, "Snack")
+            .addDescription("Snack")
+            .setExpirationDate(LocalDate.of(2023, 9, 12))
+            .addPriceTag(2.4f);
+
+        Product snack = new Product(concreteBuilder);
+        
+        System.out.println(snack);
     }
 
 }

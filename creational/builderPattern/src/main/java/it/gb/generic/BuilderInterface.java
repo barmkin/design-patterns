@@ -1,6 +1,6 @@
 package it.gb.generic;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public interface BuilderInterface {
 
@@ -8,7 +8,7 @@ public interface BuilderInterface {
 
     public BuilderInterface addDescription(String productDescription);
 
-    public BuilderInterface setExpirationDate(Date expirationDate);
+    public BuilderInterface setExpirationDate(LocalDate expirationDate);
 
     public BuilderInterface addPriceTag(float price);
 
