@@ -32,7 +32,8 @@
             "mainClass": "it.gb.PrototypePattern",
             "projectName": "prototypePattern",
             "args": [
-                "generic"
+                "generic",
+                "cloningShapes"
             ]
         },
         {

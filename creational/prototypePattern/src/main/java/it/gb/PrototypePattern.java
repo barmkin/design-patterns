@@ -1,11 +1,12 @@
 package it.gb;
 
+import it.gb.cloningShapes.CloningShapesApp;
 import it.gb.generic.Client;
 
 public class PrototypePattern {
     public static enum examples_list {
         generic,
-        todo
+        cloningShapes
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class PrototypePattern {
             for (String arg : args) {
                 if (PrototypePattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (PrototypePattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (PrototypePattern.examples_list.cloningShapes.name().equals(arg)) {
+                    CloningShapesApp.executeCloningShapesApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     PrototypePattern.printValidArgs();

@@ -36,8 +36,8 @@ The Prototype Pattern helps improve code reusability and performance by reusing 
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Cloning Shapes
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/cloningShapes/)
 
-TODO.
+Creates and manages shapes using a Shape Manager and creates Clonable interface clones.
