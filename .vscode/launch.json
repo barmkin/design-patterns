@@ -27,6 +27,16 @@
         },
         {
             "type": "java",
+            "name": "PrototypePattern",
+            "request": "launch",
+            "mainClass": "it.gb.PrototypePattern",
+            "projectName": "prototypePattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",

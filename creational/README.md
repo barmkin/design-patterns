@@ -19,3 +19,11 @@ The Builder Pattern is a creational design pattern used in software engineering 
 The primary goal of the Builder Pattern is to simplify the construction of complex objects by providing a clear and flexible way to set their properties and configure them, regardless of the specific variation or configuration required. It's especially useful when an object has a large number of optional properties or configurations.
 
 ---
+
+## [Prototype Pattern](./prototypePattern/)
+
+The Prototype Pattern is a creational design pattern used in software development to efficiently create new objects by cloning existing ones, known as prototypes. Instead of creating objects from scratch, this pattern allows you to copy and customize existing objects to create new instances. It's particularly useful when the cost of object creation is high, as it reduces overhead by avoiding redundant initialization processes.
+
+In the Prototype Pattern, you start with a prototype object that serves as a blueprint. When you need a new instance, you simply clone the prototype and make any necessary modifications to the copied object. This approach promotes flexibility and reduces the complexity of object initialization, making it easier to create new objects with different configurations while maintaining consistency and avoiding unnecessary resource consumption.
+
+---
