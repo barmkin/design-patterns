@@ -38,6 +38,16 @@
         },
         {
             "type": "java",
+            "name": "FactoryMethodPattern",
+            "request": "launch",
+            "mainClass": "it.gb.FactoryMethodPattern",
+            "projectName": "factoryMethodPattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Chain Of Responsibility",
             "request": "launch",
             "mainClass": "it.gb.ChainOfResponsibility",

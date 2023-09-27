@@ -46,6 +46,8 @@ Creational design patterns are a set of software design principles that provide 
 
 ### [Prototype Pattern](./creational/prototypePattern/)
 
+### [Factory Method Pattern](./creational/factoryMethodPattern/)
+
 ---
 
 ## [Structural](./structural)

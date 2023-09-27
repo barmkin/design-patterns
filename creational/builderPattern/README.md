@@ -37,8 +37,8 @@ By employing the Builder Pattern, you simplify the creation of complex documents
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Pizza Buider
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/pizzaBuilder)
 
-TODO.
+Create a pizza using builder pattern.
