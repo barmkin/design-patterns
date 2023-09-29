@@ -42,6 +42,6 @@ A simple exercise based on UML version of this pattern.
 
 ## TODO
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/videoGameCharacterFactory/)
 
-TODO.
+Add a basic role play game character creation. 3 classes, some armors and weapons.

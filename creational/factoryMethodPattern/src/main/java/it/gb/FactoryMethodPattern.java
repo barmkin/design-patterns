@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.videoGameCharacterFactory.VideoGameCharacterFactoryApp;
 
 public class FactoryMethodPattern {
     public static enum examples_list {
         generic,
-        todo
+        videoGameCharacterFactory
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class FactoryMethodPattern {
             for (String arg : args) {
                 if (FactoryMethodPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (FactoryMethodPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (FactoryMethodPattern.examples_list.videoGameCharacterFactory.name().equals(arg)) {
+                    VideoGameCharacterFactoryApp.executeVideoGameCharacterFactoryApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     FactoryMethodPattern.printValidArgs();
