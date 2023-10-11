@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Weapon",
-            "request": "launch",
-            "mainClass": "it.gb.videoGameCharacterFactory.Weapon",
-            "projectName": "factoryMethodPattern"
-        },
-        {
-            "type": "java",
             "name": "SingletonPattern",
             "request": "launch",
             "mainClass": "it.gb.SingletonPattern",
@@ -51,6 +44,16 @@
             "projectName": "factoryMethodPattern",
             "args": [
                 "videoGameCharacterFactory"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "AbstractFactoryPattern",
+            "request": "launch",
+            "mainClass": "it.gb.AbstractFactoryPattern",
+            "projectName": "abstractFactoryPattern",
+            "args": [
+                "generic"
             ]
         },
         {

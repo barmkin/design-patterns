@@ -1,6 +1,6 @@
 # Factory Method Pattern
 
-- ["Launcher" or "Main" class](./src/main/java/it/gb/BuilderPattern.java)
+- ["Launcher" or "Main" class](./src/main/java/it/gb/FactoryMethodPattern.java)
 
 The Factory Method Pattern is a creational design pattern used in software engineering to provide an interface for creating objects but allowing subclasses to alter the type of objects that will be created. It defines an abstract method for creating objects, which subclasses implement to produce objects that are suitable for their specific contexts.
 
@@ -40,8 +40,8 @@ By employing the Factory Method Pattern, you ensure that the creation of UI elem
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## VideoGame Character Factory
 
 - [Folder Path](./src/main/java/it/gb/videoGameCharacterFactory/)
 
-Add a basic role play game character creation. 3 classes, some armors and weapons.
+Add a basic RPG (role play game) character creation. 3 classes, some armors and weapons.
