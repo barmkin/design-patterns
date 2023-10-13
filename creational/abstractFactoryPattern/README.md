@@ -40,8 +40,8 @@ By employing the Abstract Factory Pattern, you achieve the goal of creating fami
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Cross Platform User Interface
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/crossPlatformUI/)
 
-TODO
+Create an abstract UI factory and display element for Window or Mobile applications.

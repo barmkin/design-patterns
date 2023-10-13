@@ -35,3 +35,9 @@ The Factory Method Pattern is a creational design pattern used in software devel
 The Factory Method Pattern provides a way to extend and customize object creation without modifying the existing client code. This promotes flexibility and maintains the open-closed principle, allowing for easier scalability and maintenance of the software system. It is commonly used in scenarios where the exact class of objects to be created is determined at runtime, or when you need to decouple the client code from specific class implementations to enhance code reusability and adaptability.
 
 ---
+
+## [Abstract Factory Pattern](./abstractFactoryPattern/)
+
+The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It offers a way to create sets of objects with consistent interfaces that work together seamlessly. This pattern is particularly useful when a system needs to be configured to work with multiple families of objects or when you want to ensure that the created objects are compatible and maintain a consistent behavior.
+
+In the Abstract Factory Pattern, you define an abstract factory interface that declares a set of creation methods for various types of objects. Subclasses of this abstract factory implement these methods to create specific instances of objects. These subclasses represent different families of related products. By using the abstract factory, you can switch between different families of objects easily, making it ideal for building systems with a high degree of configurability and extensibility. The pattern helps maintain a high level of consistency across the objects created, as they are all part of the same family, and it promotes the principle of encapsulation and loose coupling between client code and concrete implementations.

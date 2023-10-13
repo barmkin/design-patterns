@@ -53,7 +53,7 @@
             "mainClass": "it.gb.AbstractFactoryPattern",
             "projectName": "abstractFactoryPattern",
             "args": [
-                "generic"
+                "crossPlatformUI"
             ]
         },
         {

@@ -1,11 +1,12 @@
 package it.gb;
 
+import it.gb.crossPlatformUI.CrossPlatformUIApp;
 import it.gb.generic.Client;
 
 public class AbstractFactoryPattern {
     public static enum examples_list {
         generic,
-        todo
+        crossPlatformUI
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class AbstractFactoryPattern {
             for (String arg : args) {
                 if (AbstractFactoryPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (AbstractFactoryPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (AbstractFactoryPattern.examples_list.crossPlatformUI.name().equals(arg)) {
+                    CrossPlatformUIApp.executeCrossPlatformUIApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     AbstractFactoryPattern.printValidArgs();
