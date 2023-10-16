@@ -11,4 +11,3 @@ The Adapter Pattern is a structural design pattern used in software engineering 
 The Adapter Pattern consists of two key components: the adapter itself and the target interface that the client code expects. By implementing the adapter, you ensure that the client code can interact with the non-compatible class as if it were a compatible one. This pattern promotes code reusability, as it allows you to integrate existing classes into new systems without requiring extensive modifications. It's a valuable tool for maintaining and extending legacy code, integrating third-party libraries, and fostering better collaboration between different parts of a system with disparate interfaces.
 
 ---
-
