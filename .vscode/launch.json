@@ -1,17 +1,24 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "SingletonPattern",
+            "name": "AbstractFactoryPattern",
             "request": "launch",
-            "mainClass": "it.gb.SingletonPattern",
-            "projectName": "singletonPattern",
+            "mainClass": "it.gb.AbstractFactoryPattern",
+            "projectName": "abstractFactoryPattern",
             "args": [
-                "configurationManager"
+                "crossPlatformUI"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "AdapterPattern",
+            "request": "launch",
+            "mainClass": "it.gb.AdapterPattern",
+            "projectName": "adapterPattern",
+            "args": [
+                "generic",
             ]
         },
         {
@@ -23,37 +30,6 @@
             "args": [
                 "generic",
                 "pizzaBuilder"
-            ]
-        },
-        {
-            "type": "java",
-            "name": "PrototypePattern",
-            "request": "launch",
-            "mainClass": "it.gb.PrototypePattern",
-            "projectName": "prototypePattern",
-            "args": [
-                "generic",
-                "cloningShapes"
-            ]
-        },
-        {
-            "type": "java",
-            "name": "FactoryMethodPattern",
-            "request": "launch",
-            "mainClass": "it.gb.FactoryMethodPattern",
-            "projectName": "factoryMethodPattern",
-            "args": [
-                "videoGameCharacterFactory"
-            ]
-        },
-        {
-            "type": "java",
-            "name": "AbstractFactoryPattern",
-            "request": "launch",
-            "mainClass": "it.gb.AbstractFactoryPattern",
-            "projectName": "abstractFactoryPattern",
-            "args": [
-                "crossPlatformUI"
             ]
         },
         {
@@ -75,6 +51,16 @@
             "projectName": "commandPattern",
             "args": [
                 "simpleDocumentWriter"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "FactoryMethodPattern",
+            "request": "launch",
+            "mainClass": "it.gb.FactoryMethodPattern",
+            "projectName": "factoryMethodPattern",
+            "args": [
+                "videoGameCharacterFactory"
             ]
         },
         {
@@ -127,6 +113,27 @@
             "projectName": "observerPattern",
             "args": [
                 "weatherStation"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "PrototypePattern",
+            "request": "launch",
+            "mainClass": "it.gb.PrototypePattern",
+            "projectName": "prototypePattern",
+            "args": [
+                "generic",
+                "cloningShapes"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "SingletonPattern",
+            "request": "launch",
+            "mainClass": "it.gb.SingletonPattern",
+            "projectName": "singletonPattern",
+            "args": [
+                "configurationManager"
             ]
         },
         {
