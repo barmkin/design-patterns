@@ -1,7 +1,7 @@
 package it.gb;
 
-import it.gb.cloningShapes.CloningShapesApp;
 import it.gb.generic.Client;
+import it.gb.cloningShapes.CloningShapesApp;
 
 public class PrototypePattern {
     public static enum examples_list {

@@ -1,7 +1,7 @@
 package it.gb;
 
-import it.gb.configurationManager.ConfigurationManagerApp;
 import it.gb.generic.Client;
+import it.gb.configurationManager.ConfigurationManagerApp;
 
 public class SingletonPattern {
     public static enum examples_list {

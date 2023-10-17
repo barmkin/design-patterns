@@ -1,7 +1,7 @@
 package it.gb;
 
-import it.gb.crossPlatformUI.CrossPlatformUIApp;
 import it.gb.generic.Client;
+import it.gb.crossPlatformUI.CrossPlatformUIApp;
 
 public class AbstractFactoryPattern {
     public static enum examples_list {

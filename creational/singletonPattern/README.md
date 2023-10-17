@@ -32,4 +32,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/configurationManager/)
 
-A simple configuration manager used for storing String, Integer and Boolean values.
+The primary goal of this exercise is to implement the Singleton Pattern for a Configuration Manager class. Focus on designing the singleton class with proper instance management and configuration storage.

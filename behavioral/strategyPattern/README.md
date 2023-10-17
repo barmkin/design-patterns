@@ -36,4 +36,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/sortingAlgorithms/)
 
-Choose three different strategies to sort an array of integers. This example also calculates the time in seconds.
+The goal of the exercise is to implement the sorting algorithms using the Strategy Pattern to provide flexibility in choosing different strategies. The focus is on designing the strategy interface, concrete strategies, and the context class that uses the strategy. This example also calculates the time in seconds.

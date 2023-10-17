@@ -41,4 +41,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/pizzaBuilder)
 
-Create a pizza using builder pattern.
+The main goal of this exercise is to implement the Builder Pattern to create complex Pizza objects with various customizations. Focus on designing the Pizza class, PizzaBuilder class, and the process of building custom pizzas step by step.

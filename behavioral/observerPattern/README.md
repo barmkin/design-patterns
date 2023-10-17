@@ -38,4 +38,4 @@ A generic Concrete Observer listening on changes of the Concrete Subject.
 
 - [Folder Path](./src/main/java/it/gb/weatherStation/)
 
-A simple weather station with temperature and humidity and 2 type of observers.
+A simple weather station with temperature and humidity and 2 type of observers. Implementing the Observer Pattern to make the Weather Station and display components interact accordingly.  

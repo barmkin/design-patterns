@@ -44,4 +44,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/videoGameCharacterFactory/)
 
-Add a basic RPG (role play game) character creation. 3 classes, some armors and weapons.
+The main goal of this exercise is to implement the Factory Method Pattern to create different types of characters in a video game. Focus on designing the Character classes, CharacterFactory interface, and concrete factory classes.

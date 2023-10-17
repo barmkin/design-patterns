@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.legacyPrinterIntegration.LegacyPrinterIntegrationApp;
 
 public class AdapterPattern {
     public static enum examples_list {
         generic,
-        todo
+        legacyPrinterIntegration
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class AdapterPattern {
             for (String arg : args) {
                 if (AdapterPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (AdapterPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (AdapterPattern.examples_list.legacyPrinterIntegration.name().equals(arg)) {
+                    LegacyPrinterIntegrationApp.executeLegacyPrinterIntegrationApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     AdapterPattern.printValidArgs();

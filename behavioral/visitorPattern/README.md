@@ -40,4 +40,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/zooAnimals/)
 
-A simple model of a zoo where Zookeepers and Researchers can visit the Animals.
+The goal of the exercise is to implement the Visitor Pattern to perform different operations on various types of animals while keeping the animal classes unchanged. Focus on designing the animal interface, concrete animal classes, visitor interface, and concrete visitor classes.

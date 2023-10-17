@@ -38,8 +38,8 @@ By using the Adapter Pattern, you can maintain a consistent interface for databa
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Legacy Printer Integration
 
-- [Folder Path](./src/main/java/it/gb/TODO/)
+- [Folder Path](./src/main/java/it/gb/legacyPrinterIntegration/)
 
-TODO.
+The goal of this exercise is to implement the Adapter Pattern to integrate a legacy system (the OldPrinter) with a modern system (the ModernPrinter). Focus on designing the Printer interface, the ModernPrinter, the OldPrinter, and the PrinterAdapter.

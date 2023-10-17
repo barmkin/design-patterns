@@ -44,4 +44,4 @@ A simple exercise based on UML version of this pattern.
 
 - [Folder Path](./src/main/java/it/gb/crossPlatformUI/)
 
-Create an abstract UI factory and display element for Window or Mobile applications.
+The primary goal of this exercise is to implement the Abstract Factory Pattern to create UI components compatible with different platforms. Focus on designing the Button and Window classes, the UIComponentFactory interface, and the concrete factory classes.
