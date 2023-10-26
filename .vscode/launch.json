@@ -23,6 +23,16 @@
         },
         {
             "type": "java",
+            "name": "BridgePattern",
+            "request": "launch",
+            "mainClass": "it.gb.BridgePattern",
+            "projectName": "bridgePattern",
+            "args": [
+                "generic",
+            ]
+        },
+        {
+            "type": "java",
             "name": "BuilderPattern",
             "request": "launch",
             "mainClass": "it.gb.BuilderPattern",

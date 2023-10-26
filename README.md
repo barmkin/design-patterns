@@ -58,6 +58,8 @@ Structural design patterns are a collection of software design strategies that f
 
 ### [Adapter Pattern](./structural/adapterPattern/)
 
+### [Bridge Pattern](./structural/bridgePattern/)
+
 ---
 
 ## [Behavioral](./behavioral)
