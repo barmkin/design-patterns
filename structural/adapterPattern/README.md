@@ -40,6 +40,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Legacy Printer Integration
 
-- [Folder Path](./src/main/java/it/gb/legacyPrinterIntegration/)
+- [Folder Path](./src/main/java/it/gb/legacyPrinterIntegration)
 
 The goal of this exercise is to implement the Adapter Pattern to integrate a legacy system (the OldPrinter) with a modern system (the ModernPrinter). Focus on designing the Printer interface, the ModernPrinter, the OldPrinter, and the PrinterAdapter.

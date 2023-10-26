@@ -32,6 +32,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Online Learning Platform Algorithms
 
-- [Folder Path](./src/main/java/it/gb/onlineLearningPlatform/)
+- [Folder Path](./src/main/java/it/gb/onlineLearningPlatform)
 
 The goal of the exercise is to implement the course structure using the Template Method Pattern, ensuring a consistent structure while allowing individual courses to define their specific steps.

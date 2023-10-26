@@ -40,15 +40,15 @@ When using Design Patterns, it is essential to consider the context and requirem
 
 Creational design patterns are a set of software design principles that provide solutions for object creation mechanisms, making it easier to instantiate and configure objects in a flexible and efficient manner. These patterns help manage the process of creating objects, balancing factors like flexibility, simplicity, and performance in various software scenarios.
 
-### [Abstract Factory Pattern](./creational/abstractFactoryPattern/)
+### [Abstract Factory Pattern](./creational/abstractFactoryPattern)
 
-### [Builder Pattern](./creational/builderPattern/)
+### [Builder Pattern](./creational/builderPattern)
 
-### [Factory Method Pattern](./creational/factoryMethodPattern/)
+### [Factory Method Pattern](./creational/factoryMethodPattern)
 
-### [Prototype Pattern](./creational/prototypePattern/)
+### [Prototype Pattern](./creational/prototypePattern)
 
-### [Singleton Pattern](./creational/singletonPattern/)
+### [Singleton Pattern](./creational/singletonPattern)
 
 ---
 
@@ -56,9 +56,9 @@ Creational design patterns are a set of software design principles that provide 
 
 Structural design patterns are a collection of software design strategies that focus on how objects and classes are structured and composed to form larger structures, ensuring adaptability and efficient interaction among components. These patterns aid in creating clear relationships between different parts of a software system while maintaining flexibility and reusability.
 
-### [Adapter Pattern](./structural/adapterPattern/)
+### [Adapter Pattern](./structural/adapterPattern)
 
-### [Bridge Pattern](./structural/bridgePattern/)
+### [Bridge Pattern](./structural/bridgePattern)
 
 ---
 
@@ -66,27 +66,27 @@ Structural design patterns are a collection of software design strategies that f
 
 Behavioral design patterns are concerned with the delegation of responsibilities and encapsulation of behaviors within objects, promoting loose coupling and reusability. They address common problems related to communication, coordination, and interaction between objects while ensuring that the system remains easy to understand, extend, and modify.
 
-### [Chain of Responsibility Pattern](./behavioral/chainOfResponsibilityPattern/)
+### [Chain of Responsibility Pattern](./behavioral/chainOfResponsibilityPattern)
 
-### [Command Pattern](./behavioral/commandPattern/)
+### [Command Pattern](./behavioral/commandPattern)
 
-### [Interpreter Pattern](./behavioral/interpreterPattern/)
+### [Interpreter Pattern](./behavioral/interpreterPattern)
 
-### [Iterator Pattern](./behavioral/iteratorPattern/)
+### [Iterator Pattern](./behavioral/iteratorPattern)
 
-### [Mediator Pattern](./behavioral/mediatorPattern/)
+### [Mediator Pattern](./behavioral/mediatorPattern)
 
-### [Memento Pattern](./behavioral/mementoPattern/)
+### [Memento Pattern](./behavioral/mementoPattern)
 
-### [Observer Pattern](./behavioral/observerPattern/)
+### [Observer Pattern](./behavioral/observerPattern)
 
-### [State Pattern](./behavioral/statePattern/)
+### [State Pattern](./behavioral/statePattern)
 
-### [Strategy Pattern](./behavioral/strategyPattern/)
+### [Strategy Pattern](./behavioral/strategyPattern)
 
-### [Template Method Pattern](./behavioral/templateMethodPattern/)
+### [Template Method Pattern](./behavioral/templateMethodPattern)
 
-### [Visitor Pattern](./behavioral/visitorPattern/)
+### [Visitor Pattern](./behavioral/visitorPattern)
 
 ---
 

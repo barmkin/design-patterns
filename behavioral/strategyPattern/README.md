@@ -34,6 +34,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Sorting Algorithms
 
-- [Folder Path](./src/main/java/it/gb/sortingAlgorithms/)
+- [Folder Path](./src/main/java/it/gb/sortingAlgorithms)
 
 The goal of the exercise is to implement the sorting algorithms using the Strategy Pattern to provide flexibility in choosing different strategies. The focus is on designing the strategy interface, concrete strategies, and the context class that uses the strategy. This example also calculates the time in seconds.

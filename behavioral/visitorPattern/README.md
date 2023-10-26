@@ -38,6 +38,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Zoo Animals
 
-- [Folder Path](./src/main/java/it/gb/zooAnimals/)
+- [Folder Path](./src/main/java/it/gb/zooAnimals)
 
 The goal of the exercise is to implement the Visitor Pattern to perform different operations on various types of animals while keeping the animal classes unchanged. Focus on designing the animal interface, concrete animal classes, visitor interface, and concrete visitor classes.

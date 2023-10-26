@@ -28,7 +28,7 @@
             "mainClass": "it.gb.BridgePattern",
             "projectName": "bridgePattern",
             "args": [
-                "generic",
+                "remoteControls",
             ]
         },
         {

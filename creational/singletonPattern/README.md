@@ -30,6 +30,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Configuration Manager
 
-- [Folder Path](./src/main/java/it/gb/configurationManager/)
+- [Folder Path](./src/main/java/it/gb/configurationManager)
 
 The primary goal of this exercise is to implement the Singleton Pattern for a Configuration Manager class. Focus on designing the singleton class with proper instance management and configuration storage.

@@ -38,6 +38,6 @@ A simple exercise based on UML version of this pattern.
 
 ## Cloning Shapes
 
-- [Folder Path](./src/main/java/it/gb/cloningShapes/)
+- [Folder Path](./src/main/java/it/gb/cloningShapes)
 
 The primary goal of this exercise is to implement the Prototype Pattern to clone existing shapes efficiently. Focus on designing the Shape classes, ShapeManager, and the process of cloning shapes.

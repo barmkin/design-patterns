@@ -34,6 +34,6 @@ A simple states transition exercise based on UML version of the pattern.
 
 ## Vending Machine
 
-- [Folder Path](./src/main/java/it/gb/vendingMachine/)
+- [Folder Path](./src/main/java/it/gb/vendingMachine)
 
 The goal of the exercise is to implement the Vending Machine using the State Pattern to manage its states effectively. Avoid providing the complete solution directly, but rather focus on designing the state classes and their interactions with the Vending Machine.
