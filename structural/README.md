@@ -19,3 +19,11 @@ The Bridge Pattern is a structural design pattern used in software engineering t
 The Bridge Pattern is particularly valuable when you have multiple dimensions of variation in your software system. For example, you may have different types of shapes (abstraction) that can be drawn using various graphics systems (implementation). By employing the Bridge Pattern, you can create a cleaner, more maintainable design that allows you to extend and combine these variations without causing excessive class explosion. It's an essential tool for building flexible, easily maintainable systems and is especially helpful in scenarios where you want to support multiple platforms or create a system with multiple, interchangeable parts.
 
 ---
+
+## [Composite Pattern](./compositePattern/)
+
+The Composite Pattern is a structural design pattern used in software development to compose objects into tree-like structures to represent part-whole hierarchies. It allows clients to treat individual objects and compositions of objects uniformly. In other words, whether you're working with a single object or a complex hierarchy of objects, the client code can interact with them using a consistent interface. The pattern consists of two key components: "leaf" components, which represent the individual objects, and "composite" components, which can contain other components, including other composites. This hierarchical structure is beneficial for building complex systems with nested structures, such as graphical user interfaces, organization charts, and file systems.
+
+The Composite Pattern simplifies client code by abstracting the complexities of navigating through the hierarchy, making it easier to work with both individual objects and their compositions. It also promotes the open-closed principle, as you can add new types of components (leaf or composite) to the hierarchy without modifying existing code. This pattern enhances code reusability and maintainability, making it a valuable choice when dealing with tree-like structures or when you want to apply operations uniformly across elements of a hierarchy.
+
+---
