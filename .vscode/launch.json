@@ -75,12 +75,42 @@
         },
         {
             "type": "java",
+            "name": "Decorator Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.DecoratorPattern",
+            "projectName": "decoratorPattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Facade Pattern",
+            "request": "launch",
+            "mainClass": "it.gb.FacadePattern",
+            "projectName": "facadePattern",
+            "args": [
+                "generic"
+            ]
+        },
+        {
+            "type": "java",
             "name": "FactoryMethodPattern",
             "request": "launch",
             "mainClass": "it.gb.FactoryMethodPattern",
             "projectName": "factoryMethodPattern",
             "args": [
                 "videoGameCharacterFactory"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "FlyweightPattern",
+            "request": "launch",
+            "mainClass": "it.gb.FlyweightPattern",
+            "projectName": "flyweightPattern",
+            "args": [
+                "generic"
             ]
         },
         {
@@ -144,6 +174,16 @@
             "args": [
                 "generic",
                 "cloningShapes"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ProxyPattern",
+            "request": "launch",
+            "mainClass": "it.gb.ProxyPattern",
+            "projectName": "proxyPattern",
+            "args": [
+                "generic"
             ]
         },
         {
