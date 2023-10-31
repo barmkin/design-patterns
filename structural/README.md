@@ -27,3 +27,33 @@ The Composite Pattern is a structural design pattern used in software developmen
 The Composite Pattern simplifies client code by abstracting the complexities of navigating through the hierarchy, making it easier to work with both individual objects and their compositions. It also promotes the open-closed principle, as you can add new types of components (leaf or composite) to the hierarchy without modifying existing code. This pattern enhances code reusability and maintainability, making it a valuable choice when dealing with tree-like structures or when you want to apply operations uniformly across elements of a hierarchy.
 
 ---
+
+## [Decorator Pattern](./decoratorPattern/)
+
+The Decorator Pattern is a structural design pattern used in software development to dynamically add behavior or responsibilities to objects without altering their class structure. It is a type of wrapper pattern that allows you to attach new features or functionality to objects at runtime, making it a flexible and scalable approach to extending the behavior of objects. This pattern is particularly useful when you have a base object that needs to be extended with various optional features or when you want to avoid creating a multitude of subclasses for each combination of features.
+
+In the Decorator Pattern, you have a core component, often referred to as the "component" or "concrete component," which defines the basic behavior. Then, you have one or more "decorator" classes that wrap the core component and add new functionality to it. These decorator classes conform to the same interface as the core component, ensuring that clients can work with both the base and decorated objects in a transparent manner. This design promotes the open-closed principle, as you can easily add or remove decorators without modifying the existing code. The Decorator Pattern is commonly used in scenarios like adding borders, scrolling, or other dynamic features to graphical elements in user interfaces, and it encourages the principle of single responsibility by separating concerns in a modular way.
+
+---
+
+## [Facade Pattern](./facadePattern/)
+
+The Facade Pattern is a structural design pattern used in software development to provide a simplified, unified interface to a set of interfaces in a subsystem. It acts as a high-level interface that makes it easier for clients to interact with a complex system or set of classes by providing a single entry point. The Facade Pattern is particularly valuable when dealing with systems that have numerous components with intricate relationships and interactions. It encapsulates the complexities of the underlying system, shielding the client code from its intricacies, and promoting loose coupling between the client and the subsystem.
+
+In the Facade Pattern, a facade class is responsible for coordinating interactions with the various components of the subsystem. It hides the complexities of the system, simplifying the client's task and reducing dependencies on the subsystem's components. This pattern enhances code maintainability, as changes to the subsystem's components can be isolated from the client code. It's commonly used in various software systems, such as libraries, frameworks, or APIs, to provide a user-friendly interface for common tasks while still allowing advanced users to access the underlying components when necessary.
+
+---
+
+## [Flyweight Pattern](./flyweightPattern/)
+
+The Flyweight Pattern is a structural design pattern used in software development to minimize memory usage and improve performance by sharing as much as possible among similar objects. It is particularly valuable when you need to manage a large number of objects with shared characteristics, and you want to reduce the memory footprint and overhead associated with creating and maintaining individual instances for each object. The key idea behind the Flyweight Pattern is to split the intrinsic (shared) and extrinsic (context-specific) state of objects. Intrinsic state is shared among multiple objects, while extrinsic state can vary from object to object. By storing the intrinsic state separately and sharing it among objects, you can significantly reduce memory consumption.
+
+In the Flyweight Pattern, a factory creates and manages flyweight objects, ensuring that only one instance of each unique intrinsic state exists. When a client requests an object, the factory either returns an existing flyweight with the requested intrinsic state or creates a new one if it doesn't already exist. The extrinsic state, specific to each object, is managed by the client code, allowing it to customize the shared flyweight objects as needed. This pattern is commonly used in scenarios where you have a large number of similar objects that can share some common attributes, such as rendering characters in a word processing application or managing resources in a computer game to optimize memory usage and performance.
+
+---
+
+## [Proxy Pattern](./proxyPattern/)
+
+The Proxy Pattern is a structural design pattern used in software development to provide a surrogate or placeholder for another object. It allows you to control access to the real object and add additional behavior or services when needed. The primary motivation behind the Proxy Pattern is to create a level of indirection that enables you to add functionality like lazy initialization, access control, logging, or monitoring to objects without altering their core implementation. This pattern is particularly useful in scenarios where you want to manage access to expensive or remote resources, control object creation, or maintain a separation of concerns between the client and the actual object.
+
+In the Proxy Pattern, you have two main components: the real subject and the proxy. The real subject is the actual object with the core functionality that the client code wants to use, while the proxy is an intermediary that intercepts client requests and delegates them to the real subject. Depending on the type of proxy, it can perform various tasks like creating the real subject on-demand, caching results, performing access checks, or logging actions. The Proxy Pattern promotes flexibility, as you can switch between different types of proxies without changing the client code, allowing for easy implementation of features like lazy loading of objects, access control, and monitoring. It's commonly employed in various contexts, including virtual proxies, remote proxies, and protection proxies.

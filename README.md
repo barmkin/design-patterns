@@ -11,7 +11,7 @@ mvn clean package
 and executed via
 
 ```sh
-java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar 
+java -jar target/[PROJECT_NAME]-[PROJECT_VERSION].jar [argument_eg_generic]
 ```
 
 or simply run/debug via VSCode, see [launch.json](./.vscode/launch.json)
@@ -61,6 +61,14 @@ Structural design patterns are a collection of software design strategies that f
 ### [Bridge Pattern](./structural/bridgePattern)
 
 ### [Composite Pattern](./structural/compositePattern/)
+
+### [Decorator Pattern](./structural/decoratorPattern/)
+
+### [Facade Pattern](./structural/facadePattern/)
+
+### [Flyweight Pattern](./structural/flyweightPattern/)
+
+### [Proxy Pattern](./structural/proxyPattern/)
 
 ---
 
