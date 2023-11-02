@@ -70,7 +70,8 @@
             "mainClass": "it.gb.CompositePattern",
             "projectName": "compositePattern",
             "args": [
-                "generic"
+                "generic",
+                "organizationalHierachy"
             ]
         },
         {

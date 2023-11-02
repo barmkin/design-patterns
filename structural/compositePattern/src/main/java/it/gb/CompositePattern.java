@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.organizationalHierarchy.OrganizationalHierachyApp;
 
 public class CompositePattern {
     public static enum examples_list {
         generic,
-        todo
+        organizationalHierachy
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class CompositePattern {
             for (String arg : args) {
                 if (CompositePattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (CompositePattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (CompositePattern.examples_list.organizationalHierachy.name().equals(arg)) {
+                    OrganizationalHierachyApp.executeOrganizationalHierachyApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     CompositePattern.printValidArgs();
