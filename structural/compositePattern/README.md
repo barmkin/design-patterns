@@ -38,8 +38,8 @@ The Composite Pattern simplifies the handling of complex structures and encourag
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Organizational Hierachy
 
-- [Folder Path](./src/main/java/it/gb/TODO)
+- [Folder Path](./src/main/java/it/gb/organizationalHierarchy)
 
-TODO.
+The primary goal of this exercise is to implement the Composite Pattern to represent a hierarchical organization structure.
