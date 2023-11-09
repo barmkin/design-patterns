@@ -40,8 +40,8 @@ By using the Decorator Pattern, you can easily add, remove, or combine enhanceme
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Coffee Shop
 
 - [Folder Path](./src/main/java/it/gb/TODO)
 
-TODO.
+The main goal of this exercise is to implement the Decorator Pattern to allow dynamic customization of coffee orders with different toppings.

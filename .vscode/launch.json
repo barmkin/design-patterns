@@ -81,7 +81,8 @@
             "mainClass": "it.gb.DecoratorPattern",
             "projectName": "decoratorPattern",
             "args": [
-                "generic"
+                "generic",
+                "coffeeShop"
             ]
         },
         {
