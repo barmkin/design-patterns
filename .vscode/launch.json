@@ -92,7 +92,7 @@
             "mainClass": "it.gb.FacadePattern",
             "projectName": "facadePattern",
             "args": [
-                "generic"
+                "onlineShoppingSystem"
             ]
         },
         {

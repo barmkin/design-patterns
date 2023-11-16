@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.onlineShoppingSystem.OnlineShoppingSystemApp;
 
 public class FacadePattern {
     public static enum examples_list {
         generic,
-        todo
+        onlineShoppingSystem
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class FacadePattern {
             for (String arg : args) {
                 if (FacadePattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (FacadePattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (FacadePattern.examples_list.onlineShoppingSystem.name().equals(arg)) {
+                    OnlineShoppingSystemApp.executeOnlineShoppingSystemApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     FacadePattern.printValidArgs();

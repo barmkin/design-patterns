@@ -36,8 +36,8 @@ By employing the Facade Pattern, you isolate the complexity of the multimedia fr
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Online Shopping System
 
-- [Folder Path](./src/main/java/it/gb/TODO)
+- [Folder Path](./src/main/java/it/gb/onlineShoppingSystem/)
 
-TODO.
+The main goal of this exercise is to implement the Facade Pattern to simplify the interaction with a complex system.
