@@ -37,11 +37,13 @@ By employing the Abstract Factory Pattern, you achieve the goal of creating fami
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Cross Platform User Interface
 
 - [Folder Path](./src/main/java/it/gb/crossPlatformUI)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `crossPlatformUI`
 
 The primary goal of this exercise is to implement the Abstract Factory Pattern to create UI components compatible with different platforms. Focus on designing the Button and Window classes, the UIComponentFactory interface, and the concrete factory classes.

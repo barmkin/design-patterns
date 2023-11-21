@@ -34,11 +34,13 @@ By employing the Builder Pattern, you simplify the creation of complex documents
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Pizza Buider
 
 - [Folder Path](./src/main/java/it/gb/pizzaBuilder)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `pizzaBuilder`
 
 The main goal of this exercise is to implement the Builder Pattern to create complex Pizza objects with various customizations. Focus on designing the Pizza class, PizzaBuilder class, and the process of building custom pizzas step by step.

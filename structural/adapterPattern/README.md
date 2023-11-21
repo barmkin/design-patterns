@@ -35,11 +35,13 @@ By using the Adapter Pattern, you can maintain a consistent interface for databa
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Legacy Printer Integration
 
 - [Folder Path](./src/main/java/it/gb/legacyPrinterIntegration)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `legacyPrinterIntegration`
 
 The goal of this exercise is to implement the Adapter Pattern to integrate a legacy system (the OldPrinter) with a modern system (the ModernPrinter). Focus on designing the Printer interface, the ModernPrinter, the OldPrinter, and the PrinterAdapter.

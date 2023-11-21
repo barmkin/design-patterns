@@ -29,11 +29,13 @@ By using the Iterator Pattern, you achieve a separation of concerns, making it e
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple list iterator based on standard UML version of this pattern. This example does not use the java.util library.
 
 ## Music Library
 
 - [Folder Path](./src/main/java/it/gb/musicLibrary)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `musicLibrary`
 
 Iterates over a music playlist. Songs are ordered by iterator using artist name \[A-Z\].

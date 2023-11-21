@@ -37,11 +37,13 @@ By employing the Factory Method Pattern, you ensure that the creation of UI elem
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## VideoGame Character Factory
 
 - [Folder Path](./src/main/java/it/gb/videoGameCharacterFactory)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `videoGameCharacterFactory`
 
 The main goal of this exercise is to implement the Factory Method Pattern to create different types of characters in a video game. Focus on designing the Character classes, CharacterFactory interface, and concrete factory classes.

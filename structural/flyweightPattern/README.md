@@ -37,11 +37,13 @@ The Flyweight Pattern is a valuable tool for optimizing applications with a larg
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
-## TODO
+## Text Formatting Engine
 
-- [Folder Path](./src/main/java/it/gb/TODO)
+- [Folder Path](./src/main/java/it/gb/textFormattingEngine/)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `textFormattingEngine`
 
-TODO.
+The primary goal of this exercise is to implement the Flyweight Pattern to efficiently manage and display a large number of characters in a text editor.

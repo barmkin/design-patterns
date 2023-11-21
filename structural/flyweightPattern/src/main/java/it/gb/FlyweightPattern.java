@@ -1,11 +1,12 @@
 package it.gb;
 
 import it.gb.generic.Client;
+import it.gb.textFormattingEngine.TextFormattingEngineApp;
 
 public class FlyweightPattern {
     public static enum examples_list {
         generic,
-        todo
+        textFormattingEngine
     };
 
     private static void printValidArgs() {
@@ -22,8 +23,8 @@ public class FlyweightPattern {
             for (String arg : args) {
                 if (FlyweightPattern.examples_list.generic.name().equals(arg)) {
                     Client.executeGeneric();
-                } else if (FlyweightPattern.examples_list.todo.name().equals(arg)) {
-                    System.out.println("TODO");
+                } else if (FlyweightPattern.examples_list.textFormattingEngine.name().equals(arg)) {
+                    TextFormattingEngineApp.executeTextFormattingEngineApp();
                 } else {
                     System.out.println("Cannot find example \"" + arg + "\". Check args!");
                     FlyweightPattern.printValidArgs();

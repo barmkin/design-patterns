@@ -27,11 +27,13 @@ By employing the Memento Pattern, you can offer users the ability to revert to p
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 From UML to classes structure, a generic example of the memento pattern with a Caretaker. WARN: no max stack size for history.
 
 ## Simple File Manager
 
 - [Folder Path](./src/main/java/it/gb/musicLibrary)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `musicLibrary`
 
 Store and revert state of a class modelled by a POJO called "File" using file manager as the Caretaker. This example has a maximum history size on the Caretaker.

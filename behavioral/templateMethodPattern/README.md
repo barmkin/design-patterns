@@ -27,11 +27,13 @@ In summary, the Template Method Pattern offers a way to create reusable algorith
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Online Learning Platform Algorithms
 
 - [Folder Path](./src/main/java/it/gb/onlineLearningPlatform)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `onlineLearningPlatform`
 
 The goal of the exercise is to implement the course structure using the Template Method Pattern, ensuring a consistent structure while allowing individual courses to define their specific steps.

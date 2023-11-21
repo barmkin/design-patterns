@@ -29,11 +29,13 @@ In summary, the State Pattern facilitates dynamic behavior changes in objects by
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple states transition exercise based on UML version of the pattern.
 
 ## Vending Machine
 
 - [Folder Path](./src/main/java/it/gb/vendingMachine)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `vendingMachine`
 
 The goal of the exercise is to implement the Vending Machine using the State Pattern to manage its states effectively. Avoid providing the complete solution directly, but rather focus on designing the state classes and their interactions with the Vending Machine.

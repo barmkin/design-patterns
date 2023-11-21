@@ -31,11 +31,13 @@ By using the Mediator Pattern, developers can achieve a more flexible, maintaina
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple implementation with 2 concrete colleague communicating via Mediator.
 
 ## Simple Chat
 
 - [Folder Path](./src/main/java/it/gb/simpleChat)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `simpleChat`
 
 An example of simple chat system with login/logout and message sharing. The chat system is the Mediator, Colleagues are represented by chat users.

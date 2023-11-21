@@ -31,11 +31,13 @@ By using the Command Pattern, you achieve a separation of concerns and maintain 
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 Based on standard UML version of the pattern, it contains a simple command, concrete command, invoker and a receiver.
 
 ## Simple Document Writer
 
 - [Folder Path](./src/main/java/it/gb/simpleDocumentWriter)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `simpleDocumentWriter`
 
 Using the command pattern, it creates a simple document writer with undoing capability (with max history length).

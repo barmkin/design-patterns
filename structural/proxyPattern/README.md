@@ -37,11 +37,13 @@ By using the ImageProxy, you improve the user experience by deferring the loadin
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `onlineShoppingSystem`
 
 A simple exercise based on UML version of this pattern.
 
 ## TODO
 
 - [Folder Path](./src/main/java/it/gb/TODO)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `TODO`
 
 TODO.

@@ -37,11 +37,13 @@ By using the Bridge Pattern, you can extend and maintain the drawing application
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Remote Controls
 
 - [Folder Path](./src/main/java/it/gb/remoteControls)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `remoteControls`
 
 The primary goal of this exercise is to implement the Bridge Pattern to separate the abstraction of remote control from the implementation of devices, allowing flexibility in combining different types of remote controls with different electronic devices.

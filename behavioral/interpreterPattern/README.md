@@ -31,11 +31,13 @@ By using the Interpreter Pattern, you can achieve a clear separation between the
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 Generic Interpreter pattern with "OR" logic based on simple text strings. It contains a context, a non-terminal expression and a terminal expression.
 
 ## Basic Math Functions
 
 - [Folder Path](./src/main/java/it/gb/basicMathFunctions)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `basicMathFunctions`
 
 Evaluate a string expression and return, if the statement is correct, the result of the basic mathematical functions (sum, subtraction, multiplication and division).

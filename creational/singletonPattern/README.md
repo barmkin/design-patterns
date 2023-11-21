@@ -25,11 +25,13 @@ However, it's important to use the Singleton Pattern judiciously, as it introduc
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Configuration Manager
 
 - [Folder Path](./src/main/java/it/gb/configurationManager)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `configurationManager`
 
 The primary goal of this exercise is to implement the Singleton Pattern for a Configuration Manager class. Focus on designing the singleton class with proper instance management and configuration storage.

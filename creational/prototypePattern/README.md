@@ -33,11 +33,13 @@ The Prototype Pattern helps improve code reusability and performance by reusing 
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Cloning Shapes
 
 - [Folder Path](./src/main/java/it/gb/cloningShapes)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `cloningShapes`
 
 The primary goal of this exercise is to implement the Prototype Pattern to clone existing shapes efficiently. Focus on designing the Shape classes, ShapeManager, and the process of cloning shapes.

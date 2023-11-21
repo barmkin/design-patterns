@@ -37,11 +37,13 @@ By using the Decorator Pattern, you can easily add, remove, or combine enhanceme
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Coffee Shop
 
-- [Folder Path](./src/main/java/it/gb/TODO)
+- [Folder Path](./src/main/java/it/gb/coffeeShop/)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `coffeeShop`
 
 The main goal of this exercise is to implement the Decorator Pattern to allow dynamic customization of coffee orders with different toppings.

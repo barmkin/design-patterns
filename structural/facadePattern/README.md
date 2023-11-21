@@ -33,11 +33,13 @@ By employing the Facade Pattern, you isolate the complexity of the multimedia fr
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Online Shopping System
 
 - [Folder Path](./src/main/java/it/gb/onlineShoppingSystem/)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `onlineShoppingSystem`
 
 The main goal of this exercise is to implement the Facade Pattern to simplify the interaction with a complex system.

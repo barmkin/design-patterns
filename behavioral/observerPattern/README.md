@@ -31,11 +31,13 @@ Overall, the Observer Pattern promotes the principle of "separate what varies" b
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A generic Concrete Observer listening on changes of the Concrete Subject.
 
 ## Weather Station
 
 - [Folder Path](./src/main/java/it/gb/weatherStation)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `weatherStation`
 
 A simple weather station with temperature and humidity and 2 type of observers. Implementing the Observer Pattern to make the Weather Station and display components interact accordingly.  

@@ -29,11 +29,13 @@ It's important to note that the chain should be designed carefully to ensure tha
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 Based on standard UML version of the pattern, it contains a simple task handled by handlers.
 
 ## ATM Dispenser Machine
 
 - [Folder Path](./src/main/java/it/gb/atmDispenserMachine)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `atmDispenserMachine`
 
 Given an amount, it models an ATM bills dispenser using the chain of responsibility pattern. Every dispenser also has a maximum number of bills.

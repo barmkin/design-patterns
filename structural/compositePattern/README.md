@@ -35,11 +35,13 @@ The Composite Pattern simplifies the handling of complex structures and encourag
 ## Generic Example
 
 - [Folder Path](./src/main/java/it/gb/generic)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `generic`
 
 A simple exercise based on UML version of this pattern.
 
 ## Organizational Hierachy
 
 - [Folder Path](./src/main/java/it/gb/organizationalHierarchy)
+- [launch.json](../../.vscode/launch.json) param or `java -jar` argument: `organizationalHierarchy`
 
 The primary goal of this exercise is to implement the Composite Pattern to represent a hierarchical organization structure.
